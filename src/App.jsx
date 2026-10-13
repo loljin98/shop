@@ -14,7 +14,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   // 로그인한 사용자 ID 관리
-  // const [username, setUsername] = useState("");
+  const [username, setUsername] = useState("");
 
   // 로그인 함수
   const handleLogin = () => {
